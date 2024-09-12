@@ -46,9 +46,9 @@ public class Product {
     }
 
     public void print() {
-        System.out.println("Number\t:" + number);
-        System.out.println("Name\t:" + name);
+        System.out.println("Number\t\t:" + number);
+        System.out.println("Name\t\t:" + name);
         System.out.println("Quantity\t:" + quantity);
-        System.out.println("Price\t:" + price);
+        System.out.println("Price\t\t:" + price);
     }
 }

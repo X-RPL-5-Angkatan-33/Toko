@@ -36,11 +36,11 @@ public class CD extends Product {
         this.label = label;
     }
 
-    //Override
+    //Override dari superclass Product
     public void print() {
         super.print();
-        System.out.println("Artist:\t" + artist);
+        System.out.println("Artist\t\t:" + artist);
         System.out.println("Total Song\t:" + numSong);
-        System.out.println("Label\t:" + label);
+        System.out.println("Label\t\t:" + label);
     }
 }
