@@ -12,6 +12,13 @@ public class CD extends Product {
         label = "";
     }
 
+    public CD(int number, String name, int quantity, double price, String artist, int numSong, String label) {
+        super(number, name, quantity, price);
+        this.artist = artist;
+        this.numSong = numSong;
+        this.label = label;
+    }
+
     public String getArtist() {
         return this.artist;
     }
